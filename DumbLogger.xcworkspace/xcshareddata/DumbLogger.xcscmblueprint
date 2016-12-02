@@ -1,21 +1,28 @@
 {
-  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "D83C5778470F9D192A1FC80638126E732B9EAA01",
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "270B45FF1C86D15E4B466A0F88EC538F239096FB",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
 
   },
   "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "D83C5778470F9D192A1FC80638126E732B9EAA01" : 9223372036854775807,
     "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : 9223372036854775807,
-    "D83C5778470F9D192A1FC80638126E732B9EAA01" : 9223372036854775807
+    "270B45FF1C86D15E4B466A0F88EC538F239096FB" : 9223372036854775807
   },
   "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "5BA2F828-282A-4E1A-8491-0194D45C04E2",
   "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
-    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : "CHConf\/libs\/AFNetworking\/",
-    "D83C5778470F9D192A1FC80638126E732B9EAA01" : "CHConf\/"
+    "D83C5778470F9D192A1FC80638126E732B9EAA01" : "CHConf\/",
+    "DD20A1A48C66B5213E0FEBB87A95EF51D6C6F3E8" : "CHConf%20master\/libs\/AFNetworking\/",
+    "270B45FF1C86D15E4B466A0F88EC538F239096FB" : "CHConf%20master\/"
   },
   "DVTSourceControlWorkspaceBlueprintNameKey" : "DumbLogger",
   "DVTSourceControlWorkspaceBlueprintVersion" : 204,
   "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "DumbLogger.xcworkspace",
   "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:igorcferreira\/DumbLogger.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "270B45FF1C86D15E4B466A0F88EC538F239096FB"
+    },
     {
       "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:igorcferreira\/DumbLogger.git",
       "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",

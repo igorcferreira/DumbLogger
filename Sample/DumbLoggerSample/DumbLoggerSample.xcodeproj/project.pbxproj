@@ -14,6 +14,8 @@
 		ADBF082E1DF092D900908F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBF082C1DF092D900908F41 /* LaunchScreen.storyboard */; };
 		ADBF08371DF092E600908F41 /* DumbLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF08361DF092E600908F41 /* DumbLogger.framework */; };
 		ADBF08391DF092F100908F41 /* DumbLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF08361DF092E600908F41 /* DumbLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		ADBF08581DF0C4D000908F41 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF08571DF0C4D000908F41 /* AFNetworking.framework */; };
+		ADBF08591DF0C4D000908F41 /* AFNetworking.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF08571DF0C4D000908F41 /* AFNetworking.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -24,6 +26,7 @@
 			dstSubfolderSpec = 10;
 			files = (
 				ADBF08391DF092F100908F41 /* DumbLogger.framework in Embed Frameworks */,
+				ADBF08591DF0C4D000908F41 /* AFNetworking.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -48,6 +51,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				ADBF08371DF092E600908F41 /* DumbLogger.framework in Frameworks */,
+				ADBF08581DF0C4D000908F41 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -126,6 +130,7 @@
 				TargetAttributes = {
 					ADBF081F1DF092D900908F41 = {
 						CreatedOnToolsVersion = 8.1;
+						DevelopmentTeam = V5F865B4U5;
 						ProvisioningStyle = Automatic;
 					};
 				};
@@ -290,10 +295,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = V5F865B4U5;
 				INFOPLIST_FILE = DumbLoggerSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.igorcferreira.DumbLoggerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Debug;
@@ -302,10 +311,14 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				DEVELOPMENT_TEAM = V5F865B4U5;
 				INFOPLIST_FILE = DumbLoggerSample/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.igorcferreira.DumbLoggerSample;
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+				PROVISIONING_PROFILE_SPECIFIER = "";
 				SWIFT_VERSION = 3.0;
 			};
 			name = Release;
