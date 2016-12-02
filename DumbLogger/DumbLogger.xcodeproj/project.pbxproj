@@ -34,6 +34,9 @@
 		ADBF08441DF0AB4800908F41 /* DMBConsoleOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF08421DF0AB4800908F41 /* DMBConsoleOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADBF08451DF0AB4800908F41 /* DMBConsoleOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08431DF0AB4800908F41 /* DMBConsoleOutput.m */; };
 		ADBF08481DF0ADDE00908F41 /* DMBTestOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08471DF0ADDE00908F41 /* DMBTestOutput.m */; };
+		ADBF08521DF0C01300908F41 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF08511DF0C01300908F41 /* AFNetworking.framework */; };
+		ADBF08551DF0C03A00908F41 /* DMBApiOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF08531DF0C03A00908F41 /* DMBApiOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		ADBF08561DF0C03A00908F41 /* DMBApiOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08541DF0C03A00908F41 /* DMBApiOutput.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -64,6 +67,8 @@
 		ADBF08461DF0ADDE00908F41 /* DMBTestOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBTestOutput.h; sourceTree = "<group>"; };
 		ADBF08471DF0ADDE00908F41 /* DMBTestOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBTestOutput.m; sourceTree = "<group>"; };
 		ADBF08511DF0C01300908F41 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../libs/AFNetworking/build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
+		ADBF08531DF0C03A00908F41 /* DMBApiOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBApiOutput.h; path = "../../Source Files/DMBApiOutput.h"; sourceTree = "<group>"; };
+		ADBF08541DF0C03A00908F41 /* DMBApiOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBApiOutput.m; path = "../../Source Files/DMBApiOutput.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +76,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBF08521DF0C01300908F41 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -116,6 +122,8 @@
 				ADBF083B1DF0A49D00908F41 /* DMBOutput.h */,
 				ADBF08421DF0AB4800908F41 /* DMBConsoleOutput.h */,
 				ADBF08431DF0AB4800908F41 /* DMBConsoleOutput.m */,
+				ADBF08531DF0C03A00908F41 /* DMBApiOutput.h */,
+				ADBF08541DF0C03A00908F41 /* DMBApiOutput.m */,
 			);
 			path = DumbLogger;
 			sourceTree = "<group>";
@@ -156,6 +164,7 @@
 			files = (
 				ADBF080C1DF08D3700908F41 /* DMBLogger.h in Headers */,
 				ADBF08441DF0AB4800908F41 /* DMBConsoleOutput.h in Headers */,
+				ADBF08551DF0C03A00908F41 /* DMBApiOutput.h in Headers */,
 				ADBF083C1DF0A49D00908F41 /* DMBOutput.h in Headers */,
 				ADBF08011DF08CF100908F41 /* DumbLogger.h in Headers */,
 				ADBF08161DF08FD000908F41 /* DMBLogLevel.h in Headers */,
@@ -207,12 +216,11 @@
 		ADBF07E71DF08CF100908F41 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0810;
+				LastUpgradeCheck = 0820;
 				ORGANIZATIONNAME = "Igor Ferreira";
 				TargetAttributes = {
 					ADBF07EF1DF08CF100908F41 = {
 						CreatedOnToolsVersion = 8.1;
-						DevelopmentTeam = V5F865B4U5;
 						ProvisioningStyle = Manual;
 					};
 					ADBF07F81DF08CF100908F41 = {
@@ -313,6 +321,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ADBF08561DF0C03A00908F41 /* DMBApiOutput.m in Sources */,
 				ADBF08451DF0AB4800908F41 /* DMBConsoleOutput.m in Sources */,
 				ADBF080D1DF08D3700908F41 /* DMBLogger.m in Sources */,
 			);
@@ -355,6 +364,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -369,6 +379,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -406,6 +417,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
 				CLANG_CXX_LIBRARY = "libc++";
@@ -420,6 +432,7 @@
 				CLANG_WARN_INFINITE_RECURSION = YES;
 				CLANG_WARN_INT_CONVERSION = YES;
 				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
 				CLANG_WARN_SUSPICIOUS_MOVES = YES;
 				CLANG_WARN_UNREACHABLE_CODE = YES;
 				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
@@ -451,9 +464,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = V5F865B4U5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";
@@ -471,9 +484,9 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "";
-				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				DEFINES_MODULE = YES;
-				DEVELOPMENT_TEAM = V5F865B4U5;
+				DEVELOPMENT_TEAM = "";
 				DYLIB_COMPATIBILITY_VERSION = 1;
 				DYLIB_CURRENT_VERSION = 1;
 				DYLIB_INSTALL_NAME_BASE = "@rpath";

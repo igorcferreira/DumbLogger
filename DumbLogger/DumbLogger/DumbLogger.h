@@ -7,10 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-#import <DumbLogger/DMBLogger.h>
-#import <DumbLogger/DMBLogLevel.h>
-#import <DumbLogger/DMBOutput.h>
-#import <DumbLogger/DMBConsoleOutput.h>
+#import "DMBLogger.h"
+#import "DMBLogLevel.h"
+#import "DMBOutput.h"
+#import "DMBConsoleOutput.h"
+#import "DMBApiOutput.h"
 
 //! Project version number for DumbLogger.
 FOUNDATION_EXPORT double DumbLoggerVersionNumber;

@@ -2,6 +2,9 @@
 <Workspace
    version = "1.0">
    <FileRef
+      location = "group:libs/AFNetworking/AFNetworking.xcodeproj">
+   </FileRef>
+   <FileRef
       location = "group:Sample/DumbLoggerSample/DumbLoggerSample.xcodeproj">
    </FileRef>
    <FileRef
