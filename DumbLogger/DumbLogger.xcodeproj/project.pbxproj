@@ -23,6 +23,7 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		AD4161B01DF1E01300039221 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4161AF1DF1E01300039221 /* AFNetworking.framework */; };
 		ADBF07FA1DF08CF100908F41 /* DumbLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF07F01DF08CF100908F41 /* DumbLogger.framework */; };
 		ADBF07FF1DF08CF100908F41 /* DumbLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF07FE1DF08CF100908F41 /* DumbLoggerTests.m */; };
 		ADBF08011DF08CF100908F41 /* DumbLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF07F31DF08CF100908F41 /* DumbLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -34,7 +35,6 @@
 		ADBF08441DF0AB4800908F41 /* DMBConsoleOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF08421DF0AB4800908F41 /* DMBConsoleOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADBF08451DF0AB4800908F41 /* DMBConsoleOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08431DF0AB4800908F41 /* DMBConsoleOutput.m */; };
 		ADBF08481DF0ADDE00908F41 /* DMBTestOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08471DF0ADDE00908F41 /* DMBTestOutput.m */; };
-		ADBF08521DF0C01300908F41 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF08511DF0C01300908F41 /* AFNetworking.framework */; };
 		ADBF08551DF0C03A00908F41 /* DMBApiOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF08531DF0C03A00908F41 /* DMBApiOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADBF08561DF0C03A00908F41 /* DMBApiOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08541DF0C03A00908F41 /* DMBApiOutput.m */; };
 /* End PBXBuildFile section */
@@ -50,6 +50,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		AD4161AF1DF1E01300039221 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../libs/AFNetworking/build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
 		ADBF07F01DF08CF100908F41 /* DumbLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DumbLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBF07F31DF08CF100908F41 /* DumbLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DumbLogger.h; sourceTree = "<group>"; };
 		ADBF07F41DF08CF100908F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -76,7 +77,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBF08521DF0C01300908F41 /* AFNetworking.framework in Frameworks */,
+				AD4161B01DF1E01300039221 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -150,6 +151,7 @@
 		ADBF08501DF0C01200908F41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				AD4161AF1DF1E01300039221 /* AFNetworking.framework */,
 				ADBF08511DF0C01300908F41 /* AFNetworking.framework */,
 			);
 			name = Frameworks;

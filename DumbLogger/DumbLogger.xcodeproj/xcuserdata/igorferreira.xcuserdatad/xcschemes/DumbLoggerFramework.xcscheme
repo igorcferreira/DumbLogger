@@ -14,6 +14,20 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ADBF07EF1DF08CF100908F41"
+               BuildableName = "DumbLogger.framework"
+               BlueprintName = "DumbLogger"
+               ReferencedContainer = "container:DumbLogger.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
                BlueprintIdentifier = "ADBF08491DF0B15500908F41"
                BuildableName = "DumbLoggerFramework"
                BlueprintName = "DumbLoggerFramework"
@@ -29,6 +43,15 @@
       shouldUseLaunchSchemeArgsEnv = "YES">
       <Testables>
       </Testables>
+      <MacroExpansion>
+         <BuildableReference
+            BuildableIdentifier = "primary"
+            BlueprintIdentifier = "ADBF08491DF0B15500908F41"
+            BuildableName = "DumbLoggerFramework"
+            BlueprintName = "DumbLoggerFramework"
+            ReferencedContainer = "container:DumbLogger.xcodeproj">
+         </BuildableReference>
+      </MacroExpansion>
       <AdditionalOptions>
       </AdditionalOptions>
    </TestAction>
