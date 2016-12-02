@@ -1,0 +1,11 @@
+/* 
+  Localizable.strings
+  DumbLogger
+
+  Created by Igor Ferreira on 01/12/16.
+  Copyright © 2016 Igor Ferreira. All rights reserved.
+*/
+"Log entry" = "Registro";
+"Information" = "Informação";
+"Error" = "Erro";
+"Warning" = "Aviso";

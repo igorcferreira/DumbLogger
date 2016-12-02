@@ -1,0 +1,6 @@
+framework module DumbLogger {
+    umbrella header "DumbLogger.h"
+    
+    export *
+    module * { export * }
+}
