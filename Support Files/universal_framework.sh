@@ -14,6 +14,7 @@ cd "$SRCROOT"
 xcrun xcodebuild -workspace ../${WORKSPACE_NAME}.xcworkspace \
                  -scheme "${SCHEME_NAME}" \
                  -sdk iphonesimulator \
+                ONLY_ACTIVE_ARCH=NO \
                  -configuration ${CONFIGURATION} \
       build \
         CONFIGURATION_BUILD_DIR=${BUILD_DIR}/${CONFIGURATION}-iphonesimulator \

@@ -7,13 +7,13 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		AD00D51C1DF3246600722E3E /* DumbLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD00D51B1DF3246600722E3E /* DumbLogger.framework */; };
+		AD00D51D1DF3247800722E3E /* DumbLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = AD00D51B1DF3246600722E3E /* DumbLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		ADBF08241DF092D900908F41 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08231DF092D900908F41 /* AppDelegate.swift */; };
 		ADBF08261DF092D900908F41 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08251DF092D900908F41 /* ViewController.swift */; };
 		ADBF08291DF092D900908F41 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBF08271DF092D900908F41 /* Main.storyboard */; };
 		ADBF082B1DF092D900908F41 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = ADBF082A1DF092D900908F41 /* Assets.xcassets */; };
 		ADBF082E1DF092D900908F41 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = ADBF082C1DF092D900908F41 /* LaunchScreen.storyboard */; };
-		ADBF08371DF092E600908F41 /* DumbLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF08361DF092E600908F41 /* DumbLogger.framework */; };
-		ADBF08391DF092F100908F41 /* DumbLogger.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF08361DF092E600908F41 /* DumbLogger.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXCopyFilesBuildPhase section */
@@ -23,7 +23,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				ADBF08391DF092F100908F41 /* DumbLogger.framework in Embed Frameworks */,
+				AD00D51D1DF3247800722E3E /* DumbLogger.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -31,6 +31,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		AD00D51B1DF3246600722E3E /* DumbLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DumbLogger.framework; path = ../../bin/DumbLogger.framework; sourceTree = "<group>"; };
 		ADBF08201DF092D900908F41 /* DumbLoggerSample.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DumbLoggerSample.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBF08231DF092D900908F41 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		ADBF08251DF092D900908F41 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -38,8 +39,6 @@
 		ADBF082A1DF092D900908F41 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		ADBF082D1DF092D900908F41 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		ADBF082F1DF092D900908F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADBF08361DF092E600908F41 /* DumbLogger.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = DumbLogger.framework; path = "../../../../Library/Developer/Xcode/DerivedData/DumbLogger-ewentgkyygrorscafnjqoczdemjd/Build/Products/Debug-iphonesimulator/DumbLogger.framework"; sourceTree = "<group>"; };
-		ADBF08571DF0C4D000908F41 /* AFNetworking.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = AFNetworking.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,7 +46,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBF08371DF092E600908F41 /* DumbLogger.framework in Frameworks */,
+				AD00D51C1DF3246600722E3E /* DumbLogger.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -87,8 +86,7 @@
 		ADBF08351DF092E600908F41 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				ADBF08571DF0C4D000908F41 /* AFNetworking.framework */,
-				ADBF08361DF092E600908F41 /* DumbLogger.framework */,
+				AD00D51B1DF3246600722E3E /* DumbLogger.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -104,6 +102,7 @@
 				ADBF081D1DF092D900908F41 /* Frameworks */,
 				ADBF081E1DF092D900908F41 /* Resources */,
 				ADBF083A1DF092F100908F41 /* Embed Frameworks */,
+				AD00D5191DF3222800722E3E /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -160,6 +159,22 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		AD00D5191DF3222800722E3E /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/../../bin/DumbLogger.framework/strip_framework.sh\"";
+		};
+/* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
 		ADBF081C1DF092D900908F41 /* Sources */ = {

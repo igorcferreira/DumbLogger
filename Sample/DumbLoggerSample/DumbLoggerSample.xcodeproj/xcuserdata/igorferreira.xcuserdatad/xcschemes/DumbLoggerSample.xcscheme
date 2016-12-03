@@ -20,6 +20,20 @@
                ReferencedContainer = "container:DumbLoggerSample.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
+         <BuildActionEntry
+            buildForTesting = "YES"
+            buildForRunning = "YES"
+            buildForProfiling = "YES"
+            buildForArchiving = "YES"
+            buildForAnalyzing = "YES">
+            <BuildableReference
+               BuildableIdentifier = "primary"
+               BlueprintIdentifier = "ADBF08491DF0B15500908F41"
+               BuildableName = "DumbLoggerFramework"
+               BlueprintName = "DumbLoggerFramework"
+               ReferencedContainer = "container:../../DumbLogger/DumbLogger.xcodeproj">
+            </BuildableReference>
+         </BuildActionEntry>
       </BuildActionEntries>
    </BuildAction>
    <TestAction
