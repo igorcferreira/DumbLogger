@@ -13,7 +13,7 @@ class ViewController: UIViewController {
 
     override func viewDidLoad() {
         super.viewDidLoad()
-        let logger = DumbLogger(output: ApiOutput(), level: .information)
+        let logger = DumbLogger(output: ConsoleOutput(), level: .information)
         logger.put("Some message", level: .error)
         
         // Do any additional setup after loading the view, typically from a nib.

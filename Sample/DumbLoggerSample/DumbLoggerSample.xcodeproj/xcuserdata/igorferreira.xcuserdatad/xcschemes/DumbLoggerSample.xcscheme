@@ -14,23 +14,9 @@
             buildForAnalyzing = "YES">
             <BuildableReference
                BuildableIdentifier = "primary"
-               BlueprintIdentifier = "299522381BBF104D00859F49"
-               BuildableName = "AFNetworking.framework"
-               BlueprintName = "AFNetworking iOS"
-               ReferencedContainer = "container:../../libs/AFNetworking/AFNetworking.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ADBF07EF1DF08CF100908F41"
-               BuildableName = "DumbLogger.framework"
-               BlueprintName = "DumbLogger"
+               BlueprintIdentifier = "ADBF08491DF0B15500908F41"
+               BuildableName = "DumbLoggerFramework"
+               BlueprintName = "DumbLoggerFramework"
                ReferencedContainer = "container:../../DumbLogger/DumbLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
@@ -46,20 +32,6 @@
                BuildableName = "DumbLoggerSample.app"
                BlueprintName = "DumbLoggerSample"
                ReferencedContainer = "container:DumbLoggerSample.xcodeproj">
-            </BuildableReference>
-         </BuildActionEntry>
-         <BuildActionEntry
-            buildForTesting = "YES"
-            buildForRunning = "YES"
-            buildForProfiling = "YES"
-            buildForArchiving = "YES"
-            buildForAnalyzing = "YES">
-            <BuildableReference
-               BuildableIdentifier = "primary"
-               BlueprintIdentifier = "ADBF08491DF0B15500908F41"
-               BuildableName = "DumbLoggerFramework"
-               BlueprintName = "DumbLoggerFramework"
-               ReferencedContainer = "container:../../DumbLogger/DumbLogger.xcodeproj">
             </BuildableReference>
          </BuildActionEntry>
       </BuildActionEntries>

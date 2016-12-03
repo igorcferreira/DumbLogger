@@ -23,7 +23,6 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		AD4161B01DF1E01300039221 /* AFNetworking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AD4161AF1DF1E01300039221 /* AFNetworking.framework */; };
 		ADBF07FA1DF08CF100908F41 /* DumbLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF07F01DF08CF100908F41 /* DumbLogger.framework */; };
 		ADBF07FF1DF08CF100908F41 /* DumbLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF07FE1DF08CF100908F41 /* DumbLoggerTests.m */; };
 		ADBF08011DF08CF100908F41 /* DumbLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF07F31DF08CF100908F41 /* DumbLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
@@ -35,8 +34,6 @@
 		ADBF08441DF0AB4800908F41 /* DMBConsoleOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF08421DF0AB4800908F41 /* DMBConsoleOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
 		ADBF08451DF0AB4800908F41 /* DMBConsoleOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08431DF0AB4800908F41 /* DMBConsoleOutput.m */; };
 		ADBF08481DF0ADDE00908F41 /* DMBTestOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08471DF0ADDE00908F41 /* DMBTestOutput.m */; };
-		ADBF08551DF0C03A00908F41 /* DMBApiOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF08531DF0C03A00908F41 /* DMBApiOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADBF08561DF0C03A00908F41 /* DMBApiOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08541DF0C03A00908F41 /* DMBApiOutput.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -68,8 +65,6 @@
 		ADBF08461DF0ADDE00908F41 /* DMBTestOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBTestOutput.h; sourceTree = "<group>"; };
 		ADBF08471DF0ADDE00908F41 /* DMBTestOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBTestOutput.m; sourceTree = "<group>"; };
 		ADBF08511DF0C01300908F41 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../libs/AFNetworking/build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
-		ADBF08531DF0C03A00908F41 /* DMBApiOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBApiOutput.h; path = "../../Source Files/DMBApiOutput.h"; sourceTree = "<group>"; };
-		ADBF08541DF0C03A00908F41 /* DMBApiOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBApiOutput.m; path = "../../Source Files/DMBApiOutput.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -77,7 +72,6 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AD4161B01DF1E01300039221 /* AFNetworking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -123,8 +117,6 @@
 				ADBF083B1DF0A49D00908F41 /* DMBOutput.h */,
 				ADBF08421DF0AB4800908F41 /* DMBConsoleOutput.h */,
 				ADBF08431DF0AB4800908F41 /* DMBConsoleOutput.m */,
-				ADBF08531DF0C03A00908F41 /* DMBApiOutput.h */,
-				ADBF08541DF0C03A00908F41 /* DMBApiOutput.m */,
 			);
 			path = DumbLogger;
 			sourceTree = "<group>";
@@ -166,7 +158,6 @@
 			files = (
 				ADBF080C1DF08D3700908F41 /* DMBLogger.h in Headers */,
 				ADBF08441DF0AB4800908F41 /* DMBConsoleOutput.h in Headers */,
-				ADBF08551DF0C03A00908F41 /* DMBApiOutput.h in Headers */,
 				ADBF083C1DF0A49D00908F41 /* DMBOutput.h in Headers */,
 				ADBF08011DF08CF100908F41 /* DumbLogger.h in Headers */,
 				ADBF08161DF08FD000908F41 /* DMBLogLevel.h in Headers */,
@@ -323,7 +314,6 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBF08561DF0C03A00908F41 /* DMBApiOutput.m in Sources */,
 				ADBF08451DF0AB4800908F41 /* DMBConsoleOutput.m in Sources */,
 				ADBF080D1DF08D3700908F41 /* DMBLogger.m in Sources */,
 			);

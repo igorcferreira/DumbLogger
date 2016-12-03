@@ -10,7 +10,6 @@
 #import <DumbLogger/DMBLogLevel.h>
 #import <DumbLogger/DMBOutput.h>
 #import <DumbLogger/DMBConsoleOutput.h>
-#import <DumbLogger/DMBApiOutput.h>
 
 /** Project version number for DumbLogger. */
 FOUNDATION_EXPORT double DumbLoggerVersionNumber;
