@@ -119,7 +119,7 @@ dyld: could not load inserted library '/TestFramework.framework/TestFramework' b
 
 ## Distribuição:
 
-* [Cocoapdos](https://cocoapods.org)
+* [CocoaPods](https://cocoapods.org)
 * [Carthage](https://github.com/Carthage/Carthage)
 
 ---
