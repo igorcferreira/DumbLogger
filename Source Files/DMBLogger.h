@@ -23,6 +23,12 @@ NS_ASSUME_NONNULL_BEGIN
  */
 @property (nonatomic, assign) DMBLogLevel logLevel;
 
+
+/**
+ Simple init is unavailable to force the object to be created with a specif log level.
+
+ @return Broken object
+ */
 - (instancetype) init NS_UNAVAILABLE;
 
 /**

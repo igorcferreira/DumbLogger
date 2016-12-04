@@ -10,6 +10,9 @@
 #import "DMBOutput.h"
 
 NS_SWIFT_NAME(ConsoleOutput)
+/**
+ Output configured to print the message in the xcode console
+ */
 @interface DMBConsoleOutput : NSObject <DMBOutput>
 
 @end
