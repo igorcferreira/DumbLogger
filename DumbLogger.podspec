@@ -24,7 +24,7 @@ Pod::Spec.new do |s|
   s.source_files  = 'Source Files/**/*.{h,m}'
   s.public_header_files = 'Source Files/*.h'
   s.module_name = 'DumbLogger'
-  s.requires_arc = false
+  s.requires_arc = true
   s.resources = ['Support Files/en.lproj/*.strings','Support Files/pt.lproj/*.strings']
 
 end
