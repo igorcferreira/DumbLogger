@@ -23,16 +23,16 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
+		78F9C6691E1FFDCD009A60D6 /* DMBConsoleOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F9C6631E1FFDCD009A60D6 /* DMBConsoleOutput.h */; };
+		78F9C66A1E1FFDCD009A60D6 /* DMBConsoleOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F9C6641E1FFDCD009A60D6 /* DMBConsoleOutput.m */; };
+		78F9C66B1E1FFDCD009A60D6 /* DMBLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F9C6651E1FFDCD009A60D6 /* DMBLogger.h */; };
+		78F9C66C1E1FFDCD009A60D6 /* DMBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = 78F9C6661E1FFDCD009A60D6 /* DMBLogger.m */; };
+		78F9C66D1E1FFDCD009A60D6 /* DMBLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F9C6671E1FFDCD009A60D6 /* DMBLogLevel.h */; };
+		78F9C66E1E1FFDCD009A60D6 /* DMBOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = 78F9C6681E1FFDCD009A60D6 /* DMBOutput.h */; };
 		ADBF07FA1DF08CF100908F41 /* DumbLogger.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBF07F01DF08CF100908F41 /* DumbLogger.framework */; };
 		ADBF07FF1DF08CF100908F41 /* DumbLoggerTests.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF07FE1DF08CF100908F41 /* DumbLoggerTests.m */; };
 		ADBF08011DF08CF100908F41 /* DumbLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF07F31DF08CF100908F41 /* DumbLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADBF080C1DF08D3700908F41 /* DMBLogger.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF080A1DF08D3700908F41 /* DMBLogger.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADBF080D1DF08D3700908F41 /* DMBLogger.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF080B1DF08D3700908F41 /* DMBLogger.m */; };
 		ADBF08111DF08DA700908F41 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = ADBF08131DF08DA700908F41 /* Localizable.strings */; };
-		ADBF08161DF08FD000908F41 /* DMBLogLevel.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF08151DF08F5600908F41 /* DMBLogLevel.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADBF083C1DF0A49D00908F41 /* DMBOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF083B1DF0A49D00908F41 /* DMBOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADBF08441DF0AB4800908F41 /* DMBConsoleOutput.h in Headers */ = {isa = PBXBuildFile; fileRef = ADBF08421DF0AB4800908F41 /* DMBConsoleOutput.h */; settings = {ATTRIBUTES = (Public, ); }; };
-		ADBF08451DF0AB4800908F41 /* DMBConsoleOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08431DF0AB4800908F41 /* DMBConsoleOutput.m */; };
 		ADBF08481DF0ADDE00908F41 /* DMBTestOutput.m in Sources */ = {isa = PBXBuildFile; fileRef = ADBF08471DF0ADDE00908F41 /* DMBTestOutput.m */; };
 /* End PBXBuildFile section */
 
@@ -47,6 +47,12 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		78F9C6631E1FFDCD009A60D6 /* DMBConsoleOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBConsoleOutput.h; path = "../../Source Files/DumbLogger/DMBConsoleOutput.h"; sourceTree = "<group>"; };
+		78F9C6641E1FFDCD009A60D6 /* DMBConsoleOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBConsoleOutput.m; path = "../../Source Files/DumbLogger/DMBConsoleOutput.m"; sourceTree = "<group>"; };
+		78F9C6651E1FFDCD009A60D6 /* DMBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBLogger.h; path = "../../Source Files/DumbLogger/DMBLogger.h"; sourceTree = "<group>"; };
+		78F9C6661E1FFDCD009A60D6 /* DMBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBLogger.m; path = "../../Source Files/DumbLogger/DMBLogger.m"; sourceTree = "<group>"; };
+		78F9C6671E1FFDCD009A60D6 /* DMBLogLevel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBLogLevel.h; path = "../../Source Files/DumbLogger/DMBLogLevel.h"; sourceTree = "<group>"; };
+		78F9C6681E1FFDCD009A60D6 /* DMBOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBOutput.h; path = "../../Source Files/DumbLogger/DMBOutput.h"; sourceTree = "<group>"; };
 		AD4161AF1DF1E01300039221 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../libs/AFNetworking/build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
 		ADBF07F01DF08CF100908F41 /* DumbLogger.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = DumbLogger.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBF07F31DF08CF100908F41 /* DumbLogger.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = DumbLogger.h; sourceTree = "<group>"; };
@@ -54,14 +60,8 @@
 		ADBF07F91DF08CF100908F41 /* DumbLoggerTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DumbLoggerTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		ADBF07FE1DF08CF100908F41 /* DumbLoggerTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DumbLoggerTests.m; sourceTree = "<group>"; };
 		ADBF08001DF08CF100908F41 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		ADBF080A1DF08D3700908F41 /* DMBLogger.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBLogger.h; path = "../../Source Files/DMBLogger.h"; sourceTree = "<group>"; };
-		ADBF080B1DF08D3700908F41 /* DMBLogger.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBLogger.m; path = "../../Source Files/DMBLogger.m"; sourceTree = "<group>"; };
 		ADBF08121DF08DA700908F41 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
 		ADBF08141DF08DD100908F41 /* pt */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = pt; path = pt.lproj/Localizable.strings; sourceTree = "<group>"; };
-		ADBF08151DF08F5600908F41 /* DMBLogLevel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = DMBLogLevel.h; path = "../../Source Files/DMBLogLevel.h"; sourceTree = "<group>"; };
-		ADBF083B1DF0A49D00908F41 /* DMBOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBOutput.h; path = "../../Source Files/DMBOutput.h"; sourceTree = "<group>"; };
-		ADBF08421DF0AB4800908F41 /* DMBConsoleOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DMBConsoleOutput.h; path = "../../Source Files/DMBConsoleOutput.h"; sourceTree = "<group>"; };
-		ADBF08431DF0AB4800908F41 /* DMBConsoleOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DMBConsoleOutput.m; path = "../../Source Files/DMBConsoleOutput.m"; sourceTree = "<group>"; };
 		ADBF08461DF0ADDE00908F41 /* DMBTestOutput.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DMBTestOutput.h; sourceTree = "<group>"; };
 		ADBF08471DF0ADDE00908F41 /* DMBTestOutput.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DMBTestOutput.m; sourceTree = "<group>"; };
 		ADBF08511DF0C01300908F41 /* AFNetworking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AFNetworking.framework; path = "../libs/AFNetworking/build/Debug-iphoneos/AFNetworking.framework"; sourceTree = "<group>"; };
@@ -108,15 +108,15 @@
 		ADBF07F21DF08CF100908F41 /* DumbLogger */ = {
 			isa = PBXGroup;
 			children = (
+				78F9C6631E1FFDCD009A60D6 /* DMBConsoleOutput.h */,
+				78F9C6641E1FFDCD009A60D6 /* DMBConsoleOutput.m */,
+				78F9C6651E1FFDCD009A60D6 /* DMBLogger.h */,
+				78F9C6661E1FFDCD009A60D6 /* DMBLogger.m */,
+				78F9C6671E1FFDCD009A60D6 /* DMBLogLevel.h */,
+				78F9C6681E1FFDCD009A60D6 /* DMBOutput.h */,
 				ADBF080E1DF08D6100908F41 /* Support Files */,
 				ADBF07F31DF08CF100908F41 /* DumbLogger.h */,
 				ADBF07F41DF08CF100908F41 /* Info.plist */,
-				ADBF080A1DF08D3700908F41 /* DMBLogger.h */,
-				ADBF080B1DF08D3700908F41 /* DMBLogger.m */,
-				ADBF08151DF08F5600908F41 /* DMBLogLevel.h */,
-				ADBF083B1DF0A49D00908F41 /* DMBOutput.h */,
-				ADBF08421DF0AB4800908F41 /* DMBConsoleOutput.h */,
-				ADBF08431DF0AB4800908F41 /* DMBConsoleOutput.m */,
 			);
 			path = DumbLogger;
 			sourceTree = "<group>";
@@ -156,11 +156,11 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBF080C1DF08D3700908F41 /* DMBLogger.h in Headers */,
-				ADBF08441DF0AB4800908F41 /* DMBConsoleOutput.h in Headers */,
-				ADBF083C1DF0A49D00908F41 /* DMBOutput.h in Headers */,
+				78F9C66D1E1FFDCD009A60D6 /* DMBLogLevel.h in Headers */,
 				ADBF08011DF08CF100908F41 /* DumbLogger.h in Headers */,
-				ADBF08161DF08FD000908F41 /* DMBLogLevel.h in Headers */,
+				78F9C66B1E1FFDCD009A60D6 /* DMBLogger.h in Headers */,
+				78F9C6691E1FFDCD009A60D6 /* DMBConsoleOutput.h in Headers */,
+				78F9C66E1E1FFDCD009A60D6 /* DMBOutput.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -314,8 +314,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				ADBF08451DF0AB4800908F41 /* DMBConsoleOutput.m in Sources */,
-				ADBF080D1DF08D3700908F41 /* DMBLogger.m in Sources */,
+				78F9C66A1E1FFDCD009A60D6 /* DMBConsoleOutput.m in Sources */,
+				78F9C66C1E1FFDCD009A60D6 /* DMBLogger.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
