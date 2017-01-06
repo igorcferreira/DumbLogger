@@ -8,7 +8,7 @@ Nome: Igor Ferreira
 
 Cargo: iOS Developer
 
-Empresa: [Future Workshops](http://futureworkshops.com)
+Empresa: [Future Workshops](http://www.futureworkshops.com)
 
 ---
 
