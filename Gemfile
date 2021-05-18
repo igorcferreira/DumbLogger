@@ -1,3 +1,5 @@
 source "https://rubygems.org"
 
-gem 'jazzy', '~> 0.7.3'
+ruby '2.7.2'
+
+gem 'jazzy', '~> 0.13.7'
